@@ -1,5 +1,8 @@
-<p>listaprenotazioni works!</p>
+<p>Ecco le prenotazioni delle stanze</p>
 <div *ngFor="let b of listaPreno ">
-    {{b | json}}
+    {{b.from}} <br>
+    {{b.to}} <br>
+    {{b.name}} <br>
+    {{b.surname}} <br>
     <hr>
 </div> 
